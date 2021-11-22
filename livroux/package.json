@@ -36,6 +36,7 @@
     ]
   },
   "dependencies": {
+    "netlify-cli": "^7.0.2",
     "smooth-scroll": "^16.1.3"
   }
 }
