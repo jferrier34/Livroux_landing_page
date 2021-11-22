@@ -39,9 +39,9 @@ const Newsletter = ({
                 className="email_input"
               />
               <Button {...buttonStyle} title="Souscrire" />
-              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+              <form name="contact" method="POST" data-netlify="true">
                 <input type="email" placeholder='please fill your email' />
-                <button>SEND</button>
+                    <button type="submit">Send</button>
               </form>
             </ContactFormWrapper>
           </Box>
