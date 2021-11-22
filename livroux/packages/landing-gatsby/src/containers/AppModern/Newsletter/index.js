@@ -30,7 +30,6 @@ const Newsletter = ({
           </Box>
           <Box {...buttonArea}>
             <ContactFormWrapper>
-              <form method="POST" action="https://getform.io/f/2a18e435-0951-43eb-ac66-d6827c9dbd8e"></form>
               <Input
                 name="email"
                 inputType="email"
@@ -40,6 +39,10 @@ const Newsletter = ({
                 className="email_input"
               />
               <Button {...buttonStyle} title="Souscrire" />
+              <form name="contact" method="post" data-netlify="true" data-netlify-honeypot="bot-field">
+                <input type="email" placeholder='please fill your email' />
+                <button>SEND</button>
+              </form>
             </ContactFormWrapper>
           </Box>
         </Container>
