@@ -67,7 +67,7 @@ const TeamPortfoiloSection = () => {
           <div className="content">
             <Heading content={title} />
             <Text content={description} />
-            <Button title="Learn More" />
+            <Button style={{color: "red"}} title="contact@livroux.com" />
           </div>
         </ContentWrapper>
       </Container>

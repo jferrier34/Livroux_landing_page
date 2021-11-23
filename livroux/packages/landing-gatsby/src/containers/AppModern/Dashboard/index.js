@@ -30,20 +30,32 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
       }
     }
   `);
+
+  const handleAppStoreLink = () => {
+    window.location = 'https://apps.apple.com/fr/app/livroux-express/id1549240002'
+  }
+
+  const handlePlayStoreLink = () => {
+    window.location = 'https://play.google.com/store/apps/details?id=fr.bigappli.apps.android5f8af04919a35&gl=FR'
+  }
+
   const ButtonGroup = () => (
      <VideoGroup>
             <img
               src={appStore}
+              onClick={handleAppStoreLink}
               alt="Microsof"
-              className='img'
             />
             <img
               src={playStore}
+              onClick={handlePlayStoreLink}
               className='img2'
-              alt="Microsof"
+              alt="Microsoft"
             />
-      </VideoGroup>
+          </VideoGroup>
   );
+
+
   return (
     <DashboardWrapper id="banner_section">
       <Particles />
@@ -130,3 +142,4 @@ DashboardSection.defaultProps = {
 };
 
 export default DashboardSection;
+

@@ -66,28 +66,28 @@
 			{
 				"id": 1,
 				"color": "#F55767",
-				"icon": "../../assets/image/appModern/icon1.svg",
+				"icon": "../../assets/image/appModern/icon10.svg",
 				"title": "Localisation",
 				"description": "Localisez les établissements les plus proches de chez vous."
 			},
 			{
 				"id": 2,
 				"color": "#ff4742",
-				"icon": "../../assets/image/appModern/icon2.svg",
+				"icon": "../../assets/image/appModern/icon20.svg",
 				"title": "Messagerie",
 				"description": "Restez en contact avec vos restaurants favoris."
 			},
 			{
 				"id": 3,
 				"color": "#fb5781",
-				"icon": "../../assets/image/appModern/icon3.svg",
+				"icon": "../../assets/image/appModern/icon30.svg",
 				"title": "Notifications",
 				"description": "Soyez notifié des dernières offres et promotions de vos établissements préférés."
 			},
 			{
 				"id": 4,
 				"color": "#f18e47",
-				"icon": "../../assets/image/appModern/icon4.svg",
+				"icon": "../../assets/image/appModern/icon40.svg",
 				"title": "Sécurité",
 				"description": "Commandez en toute sécurité et protégez vos données."
 			}
@@ -118,30 +118,31 @@
 		"features": [
 			{
 				"id": 1,
-				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "Easy Invoicing",
-				"description": "Surprice your clients with professional looking invoices."
+				"icon": "../../assets/image/appModern/icon1000.svg",
+				"title": "Maps Interactive",
+				"description": "Trouvez vos services et produits préférés à proximité de chez vous."
 			},
 			{
 				"id": 2,
-				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "UX Planning",
-				"description": "UI/UX Design by following and maintaining the latest trends ."
+				"icon": "../../assets/image/appModern/icon2000.svg",
+				"title": "Promotions",
+				"description": "Bénéficiez des meilleures offres et remises sur vos produits."
 			},
 			{
 				"id": 3,
-				"icon": "../../assets/image/appModern/icon1.svg",
-				"title": "Customer Support",
-				"description": "A Dedicated support team will be always ready for you."
+				"icon": "../../assets/image/appModern/icon3000.svg",
+				"title": "Livraison",
+				"description": "Bientôt disponible! Choisissez un coursier proche de chez vous et faites-vous livrer quand vous voulez."
 			}
 		]
 	},
 
 	"designAndBuilt": {
-		"image": "../../assets/image/appModern/code.png",
-		"slogan": "ILS PARLENT DE NOUS",
-		"title": "Rejoignez notre Espace Presse",
-		"description": "Lire le contenu de l’article:"
+		"image": "../../assets/image/appModern/joinus.png",
+		"slogan": "NOTRE ACTUALITÉ",
+		"title": "Rejoignez notre Communauté.",
+		"facebookIcon": "../../assets/appModern/instagram_logo.svg",
+		"InstagramIcon": "../../assets/appModern/facebook_logo.svg"
 	},
 
 	"productData": {
@@ -305,44 +306,43 @@
 	},
 
 	"teamportfolio": {
-		"title": "Meet our awesome team members, work behind the sense",
-		"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur.",
-
+		"title": "Vous gérez un établissement et souhaitez vendre plus ?",
+		"description":  "Contactez-nous et déployer votre commerce au delà de votre zone d'activité pour atteindre plus de clients.",
 		"teammember": [
 			{
 				"id": 1,
 				"img": "../../assets/image/appModern/1.png",
-				"text": "Berlin Corleone"
+				"text": "Le Touzine"
 			},
 			{
 				"id": 2,
 				"img": "../../assets/image/appModern/2.png",
-				"text": "Jona White"
+				"text": "Fleurs & Nuances"
 			},
 			{
 				"id": 3,
-				"img": "../../assets/image/appModern/3.png",
-				"text": "Michael Price"
+				"img": "../../assets/image/appModern/7.png",
+				"text": "Food Worker"
 			},
 			{
 				"id": 4,
 				"img": "../../assets/image/appModern/4.png",
-				"text": "Vito Jackson"
+				"text": "L'Instant ... V"
 			},
 			{
 				"id": 5,
 				"img": "../../assets/image/appModern/5.png",
-				"text": "Miss Clair"
+				"text": "O wok"
 			},
 			{
 				"id": 6,
 				"img": "../../assets/image/appModern/6.png",
-				"text": "Kabir Ali"
+				"text": "Mondial Relay"
 			},
 			{
 				"id": 7,
 				"img": "../../assets/image/appModern/7.png",
-				"text": "Arthus Doe"
+				"text": "Food Worker"
 			}
 		]
 	},

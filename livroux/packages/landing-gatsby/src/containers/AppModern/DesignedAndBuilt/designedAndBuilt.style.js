@@ -31,8 +31,10 @@ export const ContentWrapper = styled.div`
   }
   .content {
     width: 410px;
+    margin-top: -37%;
     @media only screen and (max-width: 991px) {
       width: 290px;
+      margin-top: -35%;
     }
     @media only screen and (max-width: 768px) {
       width: 100%;
@@ -87,6 +89,34 @@ export const ContentWrapper = styled.div`
     border-radius: 5px;
     &:hover {
       background-color: ${themeGet('colors.primaryHover', '#3C74FF')};
+    }
+  }
+
+  .socialNetwork1 {
+    margin-right: 0px;
+    margin-left -60%;
+    max-width: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    height: 100%;
+    margin-top: -57%;
+    @media only screen and (max-width: 600px) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
+  .socialNetwork2 {
+    margin-right: 0px;
+    margin-left: -49%;
+    max-width: 50%;
+    object-fit: cover;
+    cursor: pointer;
+    height: 100%;
+    margin-top: -43%;
+    @media only screen and (max-width: 600px) {
+      margin-right: 0;
+      margin-bottom: 15px;
     }
   }
 `;

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>feature1</title>
+    <defs>
+        <filter x="-17.1%" y="-17.1%" width="134.3%" height="134.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="0%"></stop>
+            <stop stop-color="#FFFFFF" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feature1" filter="url(#filter-1)" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+            <rect id="Rounded_Rectangle_528" fill="#FF4361" x="9" y="16" width="53" height="53" rx="26.5"></rect>
+            <rect id="Rounded_Rectangle_528_copy" fill="#FF4361" x="0" y="0" width="70" height="70" rx="30"></rect>
+            <g id="icons8-google-maps" transform="translate(18.000000, 11.000000)" fill="url(#linearGradient-2)">
+                <path d="M20.292,0.326 C19.226,0.116 18.127,0 17,0 C12.29,0 8.02,1.93 4.94,5.04 L11.86,10.632 L20.292,0.326 Z M10.595,12.178 L3.62,6.55 C1.35,9.43 0,13.07 0,17 C0,19.281 0.452,21.487 1.304,23.534 L10.595,12.178 Z M14.608,10.432 C15.353,10.159 16.154,10 17,10 C20.87,10 24,13.13 24,17 C24,17.338 23.968,17.667 23.922,17.992 L31.694,8.493 C29.636,4.954 26.346,2.225 22.409,0.898 L14.608,10.432 Z M19.341,23.591 C18.608,23.851 17.822,24 17,24 C13.13,24 10,20.87 10,17 C10,16.646 10.034,16.3 10.084,15.961 L2.281,25.498 C2.667,26.164 3.09,26.813 3.57,27.43 C3.94,27.93 4.44,28.57 5.02,29.32 C6.287,30.953 7.979,33.136 9.61,35.484 L19.341,23.591 Z M10.778,37.215 C12.86,40.399 14.63,43.712 14.95,46.27 C15.09,47.26 15.94,48 16.94,48 C17.96,48 18.81,47.25 18.93,46.25 C19.54,41.42 25.5,33.77 28.71,29.65 C29.27,28.93 29.76,28.3 30.21,27.71 C32.65,24.69 34,20.89 34,17 C34,14.678 33.529,12.464 32.681,10.445 L10.778,37.215 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

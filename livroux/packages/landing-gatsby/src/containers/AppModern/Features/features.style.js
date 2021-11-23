@@ -47,12 +47,14 @@ export const FeatureWrapper = styled.div`
       position: relative;
       @media only screen and (max-width: 1366px) {
         img {
-          height: 72px;
+          height: 102px;
+          margin-bottom: 30%;
         }
       }
       @media only screen and (max-width: 480px) {
         img {
           height: 70px;
+          margin-bottom: 30%;
         }
       }
       i {

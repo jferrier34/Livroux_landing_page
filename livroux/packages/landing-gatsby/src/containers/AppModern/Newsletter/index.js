@@ -29,8 +29,10 @@ const Newsletter = ({
             />
           </Box>
           <Box {...buttonArea}>
+            <form action="https://formspree.io/f/moqraave" method="POST">
             <ContactFormWrapper>
               <Input
+                type="text"
                 name="email"
                 inputType="email"
                 label="Veuillez saisir votre adresse email"
@@ -38,8 +40,9 @@ const Newsletter = ({
                 isMaterial={true}
                 className="email_input"
               />
-              <Button {...buttonStyle} title="Souscrire" />
+              <Button {...buttonStyle} type="submit" title="Souscrire" />
             </ContactFormWrapper>
+            </form>
           </Box>
         </Container>
       </NewsletterWrapper>

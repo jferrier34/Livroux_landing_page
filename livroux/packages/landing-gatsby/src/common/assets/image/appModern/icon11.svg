@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="93px" height="92px" viewBox="0 0 93 92" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>feature1</title>
+    <defs>
+        <filter x="-23.9%" y="-21.2%" width="147.8%" height="148.5%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <rect id="path-2" x="0" y="0" width="67" height="66" rx="26.5"></rect>
+        <filter x="-10.4%" y="-7.6%" width="120.9%" height="121.2%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-42.9%" y="-28.6%" width="185.7%" height="157.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <radialGradient cx="50%" cy="0%" fx="50%" fy="0%" r="150%" gradientTransform="translate(0.500000,0.000000),scale(1.000000,0.666667),rotate(90.000000),translate(-0.500000,-0.000000)" id="radialGradient-5">
+            <stop stop-color="#000000" offset="0%"></stop>
+            <stop stop-color="#000000" offset="100%"></stop>
+        </radialGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feature1" filter="url(#filter-1)" transform="translate(13.000000, 11.000000)" fill-rule="nonzero">
+            <g id="Rounded_Rectangle_528">
+                <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                <use fill="#FF4361" xlink:href="#path-2"></use>
+            </g>
+            <g id="icons8-google-maps" filter="url(#filter-4)" transform="translate(19.000000, 12.000000)" fill="url(#radialGradient-5)">
+                <path d="M16.7110588,0.28525 C15.8331765,0.1015 14.9281176,0 14,0 C10.1211765,0 6.60470588,1.68875 4.06823529,4.41 L9.76705882,9.303 L16.7110588,0.28525 Z M8.72529412,10.65575 L2.98117647,5.73125 C1.11176471,8.25125 0,11.43625 0,14.875 C0,16.870875 0.372235294,18.801125 1.07388235,20.59225 L8.72529412,10.65575 Z M12.0301176,9.128 C12.6436471,8.889125 13.3032941,8.75 14,8.75 C17.1870588,8.75 19.7647059,11.48875 19.7647059,14.875 C19.7647059,15.17075 19.7383529,15.458625 19.7004706,15.743 L26.1009412,7.431375 C24.4061176,4.33475 21.6967059,1.946875 18.4544706,0.78575 L12.0301176,9.128 Z M15.9278824,20.642125 C15.3242353,20.869625 14.6769412,21 14,21 C10.8129412,21 8.23529412,18.26125 8.23529412,14.875 C8.23529412,14.56525 8.26329412,14.2625 8.30447059,13.965875 L1.87847059,22.31075 C2.19635294,22.8935 2.54470588,23.461375 2.94,24.00125 C3.24470588,24.43875 3.65647059,24.99875 4.13411765,25.655 C5.17752941,27.083875 6.57094118,28.994 7.91411765,31.0485 L15.9278824,20.642125 Z M8.876,32.563125 C10.5905882,35.349125 12.0482353,38.248 12.3117647,40.48625 C12.4270588,41.3525 13.1270588,42 13.9505882,42 C14.7905882,42 15.4905882,41.34375 15.5894118,40.46875 C16.0917647,36.2425 21,29.54875 23.6435294,25.94375 C24.1047059,25.31375 24.5082353,24.7625 24.8788235,24.24625 C26.8882353,21.60375 28,18.27875 28,14.875 C28,12.84325 27.6121176,10.906 26.9137647,9.139375 L8.876,32.563125 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

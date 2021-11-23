@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>feature1</title>
+    <defs>
+        <filter x="-17.1%" y="-17.1%" width="134.3%" height="134.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feature1" filter="url(#filter-1)" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+            <rect id="Rounded_Rectangle_528" fill="#FF4361" x="9" y="16" width="53" height="53" rx="26.5"></rect>
+            <rect id="Rounded_Rectangle_528_copy" fill="#FF4361" x="0" y="0" width="70" height="70" rx="30"></rect>
+            <g id="notification-svgrepo-com" transform="translate(16.000000, 15.000000)" fill="#FFFFFF">
+                <path d="M6.33333333,15.9822725 C6.33097025,10.8678265 9.74557935,6.31313906 14.8411111,4.63389629 C14.5780771,3.07154011 15.310346,1.50888803 16.709553,0.6466663 C18.10876,-0.215555433 19.9123512,-0.215555433 21.3115581,0.6466663 C22.7107651,1.50888803 23.443034,3.07154011 23.18,4.63389629 C28.2671995,6.31993791 31.6721575,10.8730501 31.6666667,15.9822725 L31.6666667,27.9911363 L38,31.9940908 L38,33.9955681 L0,33.9955681 L0,31.9940908 L6.33333333,27.9911363 L6.33333333,15.9822725 Z M23.2222222,35.9970454 C23.2222222,38.2078162 21.3318689,40 19,40 C16.6681311,40 14.7777778,38.2078162 14.7777778,35.9970454 L23.2222222,35.9970454 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

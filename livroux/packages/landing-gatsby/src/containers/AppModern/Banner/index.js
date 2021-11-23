@@ -144,7 +144,7 @@ et faites-vous livrer quand vous voulez!"
             <VideoGroup>
             <img
               src={screenVideo1}
-              onClick={handleVideoModal}
+              onClick={handleVideoModal2}
               className='video1'
               alt="Microsoft"
             />

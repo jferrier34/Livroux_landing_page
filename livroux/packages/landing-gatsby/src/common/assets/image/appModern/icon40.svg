@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="88px" height="88px" viewBox="0 0 88 88" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>feature1</title>
+    <defs>
+        <filter x="-17.1%" y="-17.1%" width="134.3%" height="134.3%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="2" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.5 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="feature1" filter="url(#filter-1)" transform="translate(9.000000, 9.000000)" fill-rule="nonzero">
+            <rect id="Rounded_Rectangle_528" fill="#FF4361" x="9" y="16" width="53" height="53" rx="26.5"></rect>
+            <rect id="Rounded_Rectangle_528_copy" fill="#FF4361" x="0" y="0" width="70" height="70" rx="30"></rect>
+            <g id="security-on-svgrepo-com" transform="translate(17.000000, 12.000000)" fill="#FFFFFF">
+                <path d="M37.8960504,7.18704145 C30.0678078,7.18704145 24.0705851,4.94448675 18.9992877,0 C13.9285177,4.94448675 7.93155866,7.18704145 0.10397528,7.18704145 C0.10397528,20.063488 -2.55329751,38.5089102 18.9991559,46 C40.5531913,38.5090424 37.8960504,20.0636202 37.8960504,7.18704145 Z M17.4339292,29.8460446 L11.138612,23.5329438 L13.9572593,20.7068807 L17.4339292,24.1936541 L24.0419754,17.5677801 L26.8604908,20.3938432 L17.4339292,29.8460446 Z" id="Shape"></path>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -124,7 +124,9 @@ export const features = {
 import appSlide1 from 'common/assets/image/appModern/appSlider1.png';
 import appSlide2 from 'common/assets/image/appModern/appSlider2.png';
 import appSlide3 from 'common/assets/image/appModern/appSlider3.png';
-import appIcon from 'common/assets/image/appModern/icon1.svg';
+import appIcon from 'common/assets/image/appModern/icon1000.svg';
+import appIcon2 from 'common/assets/image/appModern/icon1.svg';
+import appIcon3 from 'common/assets/image/appModern/icon1.svg';
 
 export const appSlider = {
   carousel: [
@@ -174,13 +176,16 @@ export const appSlider = {
 /* ------------------------------------ */
 // Design and built data section
 /* ------------------------------------ */
-import codingImage from 'common/assets/image/appModern/code.png';
+import joinusImage from 'common/assets/image/appModern/joinus.png';
+import iconFacebook from 'common/assets/image/appModern/facebook_logo.svg';
+import iconInstagram from 'common/assets/image/appModern/instagram_logo.svg';
 
 export const designAndBuilt = {
-  image: codingImage,
+  image: joinusImage,
   slogan: 'ILS PARLENT DE NOUS',
-  title: 'Rejoignez notre Espace Presse',
-  description: 'Lire le contenu de l’article ',
+  title: 'Rejoignez notre Communauté.',
+  facebookIcon: iconFacebook,
+  instagramIcon: iconInstagram,
 };
 
 /* ------------------------------------ */
@@ -361,52 +366,52 @@ export const pricing = {
 /* ------------------------------------ */
 import member1 from 'common/assets/image/appModern/1.png';
 import member2 from 'common/assets/image/appModern/2.png';
-import member3 from 'common/assets/image/appModern/3.png';
+import member3 from 'common/assets/image/appModern/7.png';
 import member4 from 'common/assets/image/appModern/4.png';
 import member5 from 'common/assets/image/appModern/5.png';
 import member6 from 'common/assets/image/appModern/6.png';
 import member7 from 'common/assets/image/appModern/7.png';
 
 export const teamportfolio = {
-  title: 'Meet our awesome team members, work behind the sense',
+  title: 'Vous gérez un établissement ?',
   description:
-    'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features that Lorem ipsum dolor sit amet consectetur.',
+    "Contactez-nous et déployer votre commerce au delà de votre zone d'activité pour atteindre plus de clients.",
 
   teammember: [
     {
       id: 1,
       img: member1,
-      text: 'Berlin Corleone',
+      text: 'Le Touzine',
     },
     {
       id: 2,
       img: member2,
-      text: 'Jona White',
+      text: 'Fleurs & Nuances',
     },
     {
       id: 3,
       img: member3,
-      text: 'Michael Price',
+      text: 'Food Worker',
     },
     {
       id: 4,
       img: member4,
-      text: 'Gullyboy Rana',
+      text: "L'Instant ... V",
     },
     {
       id: 5,
       img: member5,
-      text: 'Miss Clair',
+      text: 'O wok',
     },
     {
       id: 6,
       img: member6,
-      text: 'Bucky Ali',
+      text: 'Mondial Relay',
     },
     {
       id: 7,
       img: member7,
-      text: 'Arthus Doe',
+      text: 'Food Worker',
     },
   ],
 };
