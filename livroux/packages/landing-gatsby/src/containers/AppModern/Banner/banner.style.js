@@ -103,9 +103,11 @@ export const RatingInfo = styled.div`
 export const BannerImage = styled.div`
   flex-shrink: 0;
   img {
-
+    max-width: 50%;
+    margin-left: 7%;
     @media only screen and (max-width: 1440px) {
-    
+      max-width: 50%;
+      margin-left: 7%;
     }
   }
   @media only screen and (max-width: 1199px) {
@@ -143,6 +145,8 @@ export const ButtonGroup = styled.div`
         box-shadow: #1e2a4a 0px 12px 24px -10px;
       }
     }
+
+    
 
 
 

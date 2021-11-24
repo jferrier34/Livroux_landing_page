@@ -15,6 +15,7 @@ const SectionWrapper = styled.div`
   }
 `;
 
+
 export const ContentWrapper = styled.div`
   display: flex;
   flex-wrap: wrap;
@@ -29,6 +30,8 @@ export const ContentWrapper = styled.div`
       margin-bottom: 40px;
     }
   }
+
+
   .content {
     width: 410px;
     margin-top: -37%;

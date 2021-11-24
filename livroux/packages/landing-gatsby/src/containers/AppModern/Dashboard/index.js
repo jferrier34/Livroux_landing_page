@@ -10,7 +10,9 @@ import appStore from 'common/assets/image/appModern/app-store-badge.png';
 import playStore from 'common/assets/image/appModern/badge-play-store.svg';
 import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
+import Image from 'common/components/Image';
 import Particles from '../Particle';
+import Biker from 'common/assets/image/appModern/scooter.svg';
 import DashboardWrapper, { DashboardObject } from './dashboard.style';
 import BannerWrapper, {
   VideoGroup,
@@ -19,7 +21,7 @@ import BannerWrapper, {
 const DashboardSection = ({ row, col, title, btnStyle, description }) => {
   const data = useStaticQuery(graphql`
     query {
-      dashboard: file(relativePath: { eq: "image/appModern/iphone_x.png" }) {
+      dashboard: file(relativePath: { eq: "image/appModern/biker.png" }) {
         childImageSharp {
           gatsbyImageData(
             width: 981
@@ -30,6 +32,8 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
       }
     }
   `);
+
+
 
   const handleAppStoreLink = () => {
     window.location = 'https://apps.apple.com/fr/app/livroux-express/id1549240002'
@@ -54,6 +58,8 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
             />
           </VideoGroup>
   );
+
+ 
 
 
   return (
@@ -83,14 +89,7 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
       </Container>
       <DashboardObject>
         <div className="dashboardWrapper">
-          <GatsbyImage
-            src={
-              (data.dashboard !== null) | undefined
-                ? data.dashboard.childImageSharp.gatsbyImageData
-                : {}
-            }
-            alt="Dashboard Object"
-          />
+          <img src={Biker} alt='biker' />
         </div>
       </DashboardObject>
     </DashboardWrapper>

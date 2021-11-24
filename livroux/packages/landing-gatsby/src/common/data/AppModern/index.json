@@ -138,7 +138,7 @@
 	},
 
 	"designAndBuilt": {
-		"image": "../../assets/image/appModern/joinus.png",
+		"image": "../../assets/image/appModern/network.svg",
 		"slogan": "NOTRE ACTUALITÉ",
 		"title": "Rejoignez notre Communauté.",
 		"facebookIcon": "../../assets/appModern/instagram_logo.svg",
@@ -385,24 +385,24 @@
 		"widgets": [
 			{
 				"id": 1,
-				"icon": "../../assets/image/appModern/chat.svg",
-				"title": "Join the Community",
-				"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+				"icon": "../../assets/image/appModern/community.svg",
+				"title": "Rejoindre notre communauté",
+				"description": "Bénéficier des dernières actualités Livroux et découvrez vos commerces préférés à proximité ainsi qu'à leurs services, le tout, à porter de mains."
 			},
 			{
 				"id": 2,
-				"icon": "../../assets/image/appModern/group.svg",
-				"title": "Join in Chat Community",
-				"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+				"icon": "../../assets/image/appModern/bull.svg",
+				"title": "Nous contacter",
+				"description": "Une question ? Nous contacter directement par mail, messenger et via notre profil Instagram."
 			},
 			{
 				"id": 3,
-				"icon": "../../assets/image/appModern/github.svg",
-				"title": "Github Access",
-				"description": "Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore."
+				"icon": "../../assets/image/appModern/ios_google.svg",
+				"title": "Utiliser Livroux",
+				"description": "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitements et sans modération."
 			}
 		],
-		"logo": "../../assets/image/appModern/livroux_black.png",
+		"logo": "../../assets/image/appModern/livroux_white_logo.svg",
 		"menu": [
 			{
 				"id": 1,

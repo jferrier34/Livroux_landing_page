@@ -176,7 +176,7 @@ export const appSlider = {
 /* ------------------------------------ */
 // Design and built data section
 /* ------------------------------------ */
-import joinusImage from 'common/assets/image/appModern/joinus.png';
+import joinusImage from 'common/assets/image/appModern/social.svg';
 import iconFacebook from 'common/assets/image/appModern/facebook_logo.svg';
 import iconInstagram from 'common/assets/image/appModern/instagram_logo.svg';
 
@@ -461,33 +461,33 @@ export const testimonial = {
 /* ------------------------------------ */
 // Footer data section
 /* ------------------------------------ */
-import chat from 'common/assets/image/appModern/chat.svg';
-import group from 'common/assets/image/appModern/group.svg';
-import github from 'common/assets/image/appModern/github.svg';
-import footerLogo from 'common/assets/image/appModern/livroux_white.png';
+import chat from 'common/assets/image/appModern/community.svg';
+import group from 'common/assets/image/appModern/bull.svg';
+import github from 'common/assets/image/appModern/livroux_white_logo.svg';
+import footerLogo from 'common/assets/image/appModern/livroux_white_logo.svg';
 
 export const footer = {
   widgets: [
     {
       id: 1,
       icon: chat,
-      title: 'Join the Community',
+      title: 'Rejoindre notre communauté',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        "Bénéficier des dernières actualités Livroux et découvrez vos commerces préférés à proximité ainsi qu'à leurs services, le tout, à porter de mains.",
     },
     {
       id: 2,
       icon: group,
-      title: 'Join in Chat Community',
+      title: 'Nous contacter',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        'Une question ? Nous contacter directement par mail, messenger et via notre profil Instagram.',
     },
     {
       id: 3,
       icon: github,
-      title: 'Github Access',
+      title: 'Utiliser Livroux',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore.',
+        "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitements et sans",
     },
   ],
   logo: footerLogo,

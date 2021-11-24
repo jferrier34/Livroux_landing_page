@@ -9,6 +9,8 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 import instagramButton from 'common/assets/image/appModern/instagram_button.svg';
 import playStore from 'common/assets/image/appModern/messenger_button.svg';
+import Network from 'common/assets/image/appModern/network.svg';
+
 import BannerWrapper, {
   VideoGroup,
   VideoWrapper,
@@ -139,14 +141,11 @@ const handleVideoModal = () => {
             <Heading content={title} />
           </div>
           <div className="image">
-            <GatsbyImage
-              src={
-                (image !== null) | undefined
-                  ? image.childImageSharp.gatsbyImageData
-                  : {}
-              }
-              alt="Built Logo"
-            />
+            <ContentWrapper>
+                <div>
+                  <img className='designAndBuild' style={{ maxWidth: '80%', marginLeft: '10%' }}  src={Network} alt='network' />
+                </div>
+            </ContentWrapper>
             <ButtonGroup />
           </div>
         </ContentWrapper>

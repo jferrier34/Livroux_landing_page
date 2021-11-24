@@ -28,7 +28,7 @@ import screenVideo2 from 'common/assets/image/appModern/preview_video_two.png';
 import appStore from 'common/assets/image/appModern/app-store-badge.png';
 import playStore from 'common/assets/image/appModern/badge-play-store.svg';
 import circleBorder from 'common/assets/image/appModern/shape.svg';
-import mockup from 'common/assets/image/appModern/home_phones.png';
+import mockup from 'common/assets/image/appModern/iphone_frame.svg';
 // close button for modal
 const CloseModalButton = () => (
   <Button
@@ -171,7 +171,7 @@ et faites-vous livrer quand vous voulez!"
         </BannerContent>
         <BannerImage>
           <Fade up delay={100}>
-            <Image src={mockup} alt="Banner" />
+            <Image className="image_mockup" src={mockup} alt="Banner" />
           </Fade>
         </BannerImage>
       </Container>

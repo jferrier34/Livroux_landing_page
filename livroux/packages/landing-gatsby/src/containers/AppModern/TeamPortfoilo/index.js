@@ -31,6 +31,11 @@ const TeamPortfoiloSection = () => {
     active: 6, // active item when start
   });
 
+  function sendMail() {
+    var link = "mailto:contact@livroux.fr";
+    window.location.href = link;
+}
+
   return (
     <SectionWrapper id="team">
       <Container>
@@ -67,7 +72,7 @@ const TeamPortfoiloSection = () => {
           <div className="content">
             <Heading content={title} />
             <Text content={description} />
-            <Button style={{color: "red"}} title="contact@livroux.com" />
+            <Button onClick={sendMail} style={{textTransform: 'lowercase'}} title="contact@livroux.com" />
           </div>
         </ContentWrapper>
       </Container>

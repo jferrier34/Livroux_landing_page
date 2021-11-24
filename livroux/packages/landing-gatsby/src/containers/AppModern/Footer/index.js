@@ -70,9 +70,8 @@ const Footer = () => {
               </MenuItem>
             ))}
           </Menu>
-          <CopyrightText>Copyright {year} By RedQ Inc</CopyrightText>
+          <CopyrightText>Tout droit réservé {year} Crée par Livroux</CopyrightText>
         </MenuArea>
-        {/* End of footer menu area */}
       </Container>
     </FooterArea>
   );

@@ -113,6 +113,13 @@ const DashboardObject = styled.div`
   .dashboardWrapper {
     height: 100%;
   }
+
+  img {
+    max-width: 250%;
+    margin-left: -100%;
+    margin-top: 45%;
+  }
+
 `;
 
 export { DashboardObject };
