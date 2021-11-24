@@ -105,9 +105,11 @@ export const BannerImage = styled.div`
   img {
     max-width: 50%;
     margin-left: 7%;
+    margin-top: -4%;
     @media only screen and (max-width: 1440px) {
       max-width: 50%;
       margin-left: 7%;
+      margin-top: -4%;
     }
   }
   @media only screen and (max-width: 1199px) {
@@ -178,12 +180,12 @@ export const VideoGroup = styled.div`
   }
   img {
     margin-right: 0px;
-    margin-left -3%;
+    margin-left -2%;
     max-width: 47%;
     object-fit: cover;
     cursor: pointer;
     height: 100%;
-    margin-top: -5.2%;
+    margin-top: -10%;
     @media only screen and (max-width: 600px) {
       margin-right: 0;
       margin-bottom: 15px;
@@ -197,7 +199,7 @@ export const VideoGroup = styled.div`
     object-fit: cover;
     cursor: pointer;
     height: 100%;
-    margin-top: -2.3%;
+    margin-top: -7%;
     @media only screen and (max-width: 600px) {
       margin-right: 0;
       margin-bottom: 15px;

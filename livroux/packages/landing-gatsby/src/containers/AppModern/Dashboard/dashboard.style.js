@@ -117,7 +117,7 @@ const DashboardObject = styled.div`
   img {
     max-width: 250%;
     margin-left: -100%;
-    margin-top: 45%;
+    margin-top: 39%;
   }
 
 `;

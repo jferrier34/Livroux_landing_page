@@ -9,7 +9,7 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 import instagramButton from 'common/assets/image/appModern/instagram_button.svg';
 import playStore from 'common/assets/image/appModern/messenger_button.svg';
-import Network from 'common/assets/image/appModern/network.svg';
+import Network from 'common/assets/image/appModern/social_interaction.svg';
 
 import BannerWrapper, {
   VideoGroup,
@@ -18,7 +18,7 @@ import BannerWrapper, {
 } from '../Banner/banner.style.js';
 
 const facebookLink = () => {
-  var facebookLink = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flimitrend%2F&tabs=timeline&width=1000&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="1000" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
+  var facebookLink = 'https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flimitrend%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="500" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share'
   return facebookLink;
 }
 

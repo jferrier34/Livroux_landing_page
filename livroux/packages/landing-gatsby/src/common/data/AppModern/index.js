@@ -427,32 +427,32 @@ export const testimonial = {
       id: 1,
       title: 'Client Livroux depuis 6 mois',
       description:
-        'Get working experience to work with this amazing team & in future want to work together for bright future projects and also make deposit to freelancer.',
+        "L'efficacité Livroux me permet d'ouvrir 1j de plus par semaine grâce à une clientèle qui augmente",
       avatar:
         'https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg',
-      name: 'Jon Doe',
-      designation: 'CEO of RedQ Inc.',
+      name: 'Yoann',
+      designation: 'Gérant Food Worker',
       review: 4,
     },
     {
       id: 2,
-      title: 'Client Livroux depuis 2 mois',
+      title: 'Client Fleuriste chez Livroux depuis 3 mois',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.',
+        "Les ventes florales n'ont jamais été aussi bonnes, je n'ai plus aucun problème logistique, Livroux s'occupe de tout!",
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
-      name: 'Jeny Doe',
-      designation: 'Co Founder of RedQ Inc.',
+      name: 'Daniel',
+      designation: 'Gérant Fleurs & Nuances.',
       review: 5,
     },
     {
       id: 3,
-      title: 'Livreur Livroux depuis 1 mois',
+      title: 'Livreur Livroux depuis 4 mois',
       description:
-        'Lorem ipsum dolor sit amet consectetur adipisicing elit sed eiusmod tempor incididunt labore dolore features Lorem ipsum dolor sit amet consectetur adipisicing.',
+        "Excellent compromis et multiples bénéfices 'Livreur', super boite flexible et arrangeante au possible!",
       avatar:
-        'https://tinyfac.es/data/avatars/475605E3-69C5-4D2B-8727-61B7BB8C4699-500w.jpeg',
-      name: 'Jon Doe',
-      designation: 'Co Founder of RedQ Inc.',
+        'https://zupimages.net/viewer.php?id=21/47/36qo.png',
+      name: 'Louis',
+      designation: 'Étudiant en Médecine',
       review: 5,
     },
   ],
@@ -494,27 +494,27 @@ export const footer = {
   menu: [
     {
       id: 1,
-      text: 'Home',
+      text: 'Accueil',
       link: '#',
     },
     {
       id: 2,
-      text: 'Adversite',
+      text: 'Devenir client',
       link: '#',
     },
     {
       id: 3,
-      text: 'Supports',
+      text: 'Devenir coursier',
       link: '#',
     },
     {
       id: 4,
-      text: 'Marketing',
+      text: 'Notre produit',
       link: '#',
     },
     {
       id: 5,
-      text: 'Contact',
+      text: 'Nos partenaires',
       link: '#',
     },
   ],

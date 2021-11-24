@@ -175,18 +175,6 @@ et faites-vous livrer quand vous voulez!"
           </Fade>
         </BannerImage>
       </Container>
-      <CustomerWrapper>
-        <Text content="Commandez chez:" />
-        <ImageWrapper>
-          {client.map((item) => (
-            <Image
-              key={`client-key${item.id}`}
-              src={item.image.publicURL}
-              alt={item.title}
-            />
-          ))}
-        </ImageWrapper>
-      </CustomerWrapper>
       <img
         className="bannerBottomShape"
         src={circleBorder}

@@ -12,7 +12,7 @@ import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import Image from 'common/components/Image';
 import Particles from '../Particle';
-import Biker from 'common/assets/image/appModern/scooter.svg';
+import Biker from 'common/assets/image/appModern/rider.svg';
 import DashboardWrapper, { DashboardObject } from './dashboard.style';
 import BannerWrapper, {
   VideoGroup,
