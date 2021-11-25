@@ -90,7 +90,10 @@ const Navbar = () => {
 );
 
 
-
+  function sendMail() {
+    var link = "mailto:contact@livroux.fr";
+    window.location.href = link;
+}
 
 
   const toggleHandler = (type) => {
@@ -186,7 +189,7 @@ const Navbar = () => {
           {/* end of search */}
 
 
-            <Button onClick={handleVideoModal} title="Nous Suivre"/>
+            <Button onClick={sendMail} title="Nous Contacter"/>
             
      
 

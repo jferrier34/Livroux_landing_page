@@ -5,7 +5,7 @@
 	
 			{
 				"id": 1,
-				"label": "Nos Atouts",
+				"label": "Notre Concept",
 				"path": "#features",
 				"offset": "81"
 			},
@@ -29,7 +29,7 @@
 			},
 			{
 				"id": 5,
-				"label": "Nos Partenaires",
+				"label": "Nos Clients",
 				"path": "#testimonial",
 				"offset": "81"
 			}
@@ -60,8 +60,8 @@
 	],
 
 	"features": {
-		"slogan": "NOS ATOUTS",
-		"title": "Pourquoi nous choisir ?",
+		"slogan": "Notre Concept",
+		"title": "Livroux c'est:",
 		"items": [
 			{
 				"id": 1,
@@ -98,23 +98,23 @@
 		"carousel": [
 			{
 				"id": 1,
-				"image": "../../assets/image/appModern/appSlider1.png",
+				"image": "../../assets/image/appModern/screen_one.png",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 2,
-				"image": "../../assets/image/appModern/appSlider2.png",
+				"image": "../../assets/image/appModern/screeen.png",
 				"title": "App Slide 1"
 			},
 			{
 				"id": 3,
-				"image": "../../assets/image/appModern/appSlider3.png",
+				"image": "../../assets/image/appModern/screen_two.png",
 				"title": "App Slide 1"
 			}
 		],
 		"slogan": "DEVENIR CLIENT",
-		"title": "Commandez près de chez vous en 2 clics.",
-		"description": "Bénéficier d’un produit et à porté de main. Trouvez un produit, choisissez un coursier et faites-vous livrer quand vous voulez!.",
+		"title": "Le clic qui fait la différence.",
+		"description": "En Click&Collect ou en livraison, vos boutiques préférés sont disponibles quand vous voulez.",
 		"features": [
 			{
 				"id": 1,
@@ -130,9 +130,9 @@
 			},
 			{
 				"id": 3,
-				"icon": "../../assets/image/appModern/icon3000.svg",
-				"title": "Livraison",
-				"description": "Bientôt disponible! Choisissez un coursier proche de chez vous et faites-vous livrer quand vous voulez."
+				"icon": "../../assets/image/appModern/icon4000.svg",
+				"title": "Choix",
+				"description": "Trouvez le produit parfait, des services sur-mesures sans bouger de chez vous."
 			}
 		]
 	},
@@ -348,8 +348,8 @@
 	},
 
 	"testimonial": {
-		"slogan": "NOS PARTENAIRES",
-		"title": "Commandez chez ceux qui nous font confiance.",
+		"slogan": "NOS CLIENTS",
+		"title": "Commandez parmis ceux qui nous font confiance.",
 		"reviews": [
 			{
 				"id": 1,
@@ -399,14 +399,14 @@
 				"id": 3,
 				"icon": "../../assets/image/appModern/ios_google.svg",
 				"title": "Utiliser Livroux",
-				"description": "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitements et sans modération."
+				"description": "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitement et sans modération."
 			}
 		],
 		"logo": "../../assets/image/appModern/livroux_white_logo.svg",
 		"menu": [
 			{
 				"id": 1,
-				"text": "Home",
+				"text": "Accueil",
 				"link": "#"
 			},
 			{
@@ -426,7 +426,7 @@
 			},
 			{
 				"id": 5,
-				"text": "Nos partenaires",
+				"text": "Nos clients",
 				"link": "#"
 			}
 		]

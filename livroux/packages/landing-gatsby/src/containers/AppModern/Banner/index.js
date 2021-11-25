@@ -23,8 +23,7 @@ import BannerWrapper, {
   ImageWrapper,
 } from './banner.style';
 
-import screenVideo1 from 'common/assets/image/appModern/preview_video_one.png';
-import screenVideo2 from 'common/assets/image/appModern/preview_video_two.png';
+import city from 'common/assets/image/appModern/home_montage.svg'
 import appStore from 'common/assets/image/appModern/app-store-badge.png';
 import playStore from 'common/assets/image/appModern/badge-play-store.svg';
 import circleBorder from 'common/assets/image/appModern/shape.svg';
@@ -141,20 +140,14 @@ Trouvez un produit, choisissez un coursier
 et faites-vous livrer quand vous voulez!"
             />
           </Fade>
-            <VideoGroup>
+           <VideoGroup>
             <img
-              src={screenVideo1}
-              onClick={handleVideoModal2}
-              className='video1'
-              alt="Microsoft"
-            />
-            <img
-              src={screenVideo2}
-              onClick={handleVideoModal2}
-              className='video2'
-              alt="Microsoft"
+              className="montage_city"
+              src={city}
+              alt="background_montage"
             />
           </VideoGroup>
+           
           <VideoGroup>
             <img
               src={appStore}

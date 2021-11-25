@@ -68,7 +68,6 @@ export const BannerContent = styled.div`
       font-size: 36px;
       line-height: 42px;
       margin-bottom: 30px;
-      margin-top: 40px;
     }
   }
 
@@ -76,6 +75,7 @@ export const BannerContent = styled.div`
     color: rgba(255, 255, 255, 0.8);
     font-size: 20px;
     line-height: 29px;
+    margin-top: -4%;
   }
 `;
 
@@ -103,13 +103,13 @@ export const RatingInfo = styled.div`
 export const BannerImage = styled.div`
   flex-shrink: 0;
   img {
-    max-width: 50%;
+    max-width: 55%;
     margin-left: 7%;
-    margin-top: -4%;
+    margin-top: -3%;
     @media only screen and (max-width: 1440px) {
-      max-width: 50%;
+      max-width: 55%;
       margin-left: 7%;
-      margin-top: -4%;
+      margin-top: -3%;
     }
   }
   @media only screen and (max-width: 1199px) {
@@ -180,12 +180,12 @@ export const VideoGroup = styled.div`
   }
   img {
     margin-right: 0px;
-    margin-left -2%;
+    margin-left -3%;
     max-width: 47%;
     object-fit: cover;
     cursor: pointer;
     height: 100%;
-    margin-top: -10%;
+    margin-top: -15%;
     @media only screen and (max-width: 600px) {
       margin-right: 0;
       margin-bottom: 15px;
@@ -199,7 +199,7 @@ export const VideoGroup = styled.div`
     object-fit: cover;
     cursor: pointer;
     height: 100%;
-    margin-top: -7%;
+    margin-top: -12%;
     @media only screen and (max-width: 600px) {
       margin-right: 0;
       margin-bottom: 15px;
@@ -234,6 +234,21 @@ export const VideoGroup = styled.div`
       margin-bottom: 15px;
     }
   }
+
+  .montage_city {
+    margin-right: 0px;
+    margin-left: -7%;
+    max-width: 300%;
+    object-fit: cover;
+    cursor: pointer;
+    height: 100%;
+    margin-top: -20%;
+    @media only screen and (max-width: 600px) {
+      margin-right: 0;
+      margin-bottom: 15px;
+    }
+  }
+
 `;
 export const VideoWrapper = styled.div`
   max-width: 100%;

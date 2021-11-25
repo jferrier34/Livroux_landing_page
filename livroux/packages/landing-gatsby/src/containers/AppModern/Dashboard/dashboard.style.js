@@ -56,6 +56,10 @@ const DashboardWrapper = styled.section`
     }
   }
 
+  .inputMail {
+    margin-bottom: 5%!important;
+  }
+
   .row {
     position: relative;
     z-index: 1;
@@ -93,6 +97,63 @@ const DashboardWrapper = styled.section`
     color: #d1397c;
     text-transform: uppercase;
   }
+  .buttonGroup {
+      color: white !important;
+      background: -webkit-linear-gradient(to right, #ff9966, #ff5e62); /* Chrome 10-25, Safari 5.1-6 */
+      background: linear-gradient(to right, #ff9966, #ff5e62); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  }
+
+  .email_input {
+    flex-grow: 1;
+    margin-right: 20px;
+    margin-top: 3%;
+
+    @media (max-width: 575px) {
+      width: 100%;
+      margin-right: 0;
+      margin-bottom: 20px;
+    }
+    &.is-material {
+      &.is-focus {
+        label {
+          font-size: 14px;
+          color: red;
+        }
+        .highlight {
+          background: red;
+          height: 1px;
+        }
+      }
+    }
+
+    .highlight {
+      background: rgba(255, 255, 255, 0.4);
+    }
+
+    input {
+      background: transparent;
+      font-size: 16px;
+      font-weight: 400;
+      margin-top: 5%!important;
+      color: #343d48cc!important;
+      padding: 10px 15px;
+      border-top: 1px solid white!important;
+      border-left: 1px solid white!important;
+      border-right: 1px solid white!important;
+      @media (max-width: 575px) {
+        height: 48px;
+      }
+    }
+
+    label {
+      font-size: 17px;
+      color: #fff;
+      font-weight: 400;
+      padding-left: 10px;
+      top: 5px;
+      pointer-events: none;
+    }
+  }
 `;
 
 const DashboardObject = styled.div`
@@ -115,13 +176,15 @@ const DashboardObject = styled.div`
   }
 
   img {
-    max-width: 250%;
+    max-width: 260%;
     margin-left: -100%;
-    margin-top: 39%;
+    margin-top: 41%;
   }
-
 `;
+
+
 
 export { DashboardObject };
 
 export default DashboardWrapper;
+

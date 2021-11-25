@@ -9,7 +9,7 @@ export const navbar = {
 
     {
       id: 1,
-      label: 'Nos Atouts',
+      label: 'Notre Concept',
       path: '#features',
       offset: '81',
     },
@@ -33,7 +33,7 @@ export const navbar = {
     },
     {
       id: 5,
-      label: 'Nos Partenaires',
+      label: 'Nos Clients',
       path: '#testimonial',
       offset: '81',
     },
@@ -80,8 +80,8 @@ import featureIcon3 from 'common/assets/image/appModern/icon3.svg';
 import featureIcon4 from 'common/assets/image/appModern/icon4.svg';
 
 export const features = {
-  slogan: 'NOS ATOUTS',
-  title: 'Pourquoi nous choisir ?',
+  slogan: 'NOTRE CONCEPT',
+  title: "Livroux c'est",
   items: [
     {
       id: 1,
@@ -121,9 +121,9 @@ export const features = {
 /* ------------------------------------ */
 // App slider data section
 /* ------------------------------------ */
-import appSlide1 from 'common/assets/image/appModern/appSlider1.png';
-import appSlide2 from 'common/assets/image/appModern/appSlider2.png';
-import appSlide3 from 'common/assets/image/appModern/appSlider3.png';
+import appSlide1 from 'common/assets/image/appModern/screen_one.png';
+import appSlide2 from 'common/assets/image/appModern/screeen.png';
+import appSlide3 from 'common/assets/image/appModern/screen_two.png';
 import appIcon from 'common/assets/image/appModern/icon1000.svg';
 import appIcon2 from 'common/assets/image/appModern/icon1.svg';
 import appIcon3 from 'common/assets/image/appModern/icon1.svg';
@@ -147,9 +147,9 @@ export const appSlider = {
     },
   ],
   slogan: 'DEVENIR CLIENT',
-  title: 'Commandez près de chez vous en 2 clics.',
+  title: 'Le clic qui fait la différence.',
   description:
-    "Bénéficier d’un produit et à porté de main. Trouvez un produit, choisissez un coursier et faites-vous livrer quand vous voulez!",
+    "En Click&Collect ou en livraison, vos boutiques préférés sont disponibles quand vous voulez.",
   features: [
     {
       id: 1,
@@ -420,8 +420,8 @@ export const teamportfolio = {
 // Testimonial data section
 /* ------------------------------------ */
 export const testimonial = {
-  slogan: 'NOS PARTENAIRES',
-  title: 'Commandez chez ceux qui nous font confiance',
+  slogan: 'NOS CLIENTS',
+  title: 'Commandez parmis ceux qui nous font confiance',
   reviews: [
     {
       id: 1,
@@ -487,7 +487,7 @@ export const footer = {
       icon: github,
       title: 'Utiliser Livroux',
       description:
-        "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitements et sans",
+        "Rien de plus facile. Rendez vous sur l'App Store ou le Play Store et bénéficier de toutes nos fonctionnalités gratuitement et sans modération.",
     },
   ],
   logo: footerLogo,
@@ -514,7 +514,7 @@ export const footer = {
     },
     {
       id: 5,
-      text: 'Nos partenaires',
+      text: 'Nos clients',
       link: '#',
     },
   ],

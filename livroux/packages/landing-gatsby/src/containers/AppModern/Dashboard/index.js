@@ -5,6 +5,7 @@ import Box from 'common/components/Box';
 import Text from 'common/components/Text';
 import Heading from 'common/components/Heading';
 import Button from 'common/components/Button';
+import Input from 'common/components/Input';
 import FeatureBlock from 'common/components/FeatureBlock';
 import appStore from 'common/assets/image/appModern/app-store-badge.png';
 import playStore from 'common/assets/image/appModern/badge-play-store.svg';
@@ -12,8 +13,12 @@ import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import Image from 'common/components/Image';
 import Particles from '../Particle';
-import Biker from 'common/assets/image/appModern/rider.svg';
+import Biker from 'common/assets/image/appModern/scoot.svg';
 import DashboardWrapper, { DashboardObject } from './dashboard.style';
+import NewsletterWrapper, { ContactFormWrapper } from '../Newsletter/newsletter.style.js';
+
+
+
 import BannerWrapper, {
   VideoGroup,
 } from '../Banner/banner.style.js';
@@ -59,8 +64,6 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
           </VideoGroup>
   );
 
- 
-
 
   return (
     <DashboardWrapper id="banner_section">
@@ -72,18 +75,31 @@ const DashboardSection = ({ row, col, title, btnStyle, description }) => {
             <FeatureBlock
               title={
                 <Heading
-                  content="Obtenez un complément de revenus."
+                  content="Bien plus qu'un complément!"
                   {...title}
                 />
               }
               description={
                 <Text
-                  content="Bénéficier d’un produit et à porté de main. Trouvez un produit, choisissez un coursier et faites-vous livrer quand vous voulez!"
+                  content="Vous souhaitez devenir coursier Livroux ? C'est simple et totalement gratuit. Contactez-nous!"
                   {...description}
                 />
               }
-              button={<ButtonGroup />}
             />
+            <form action="https://formspree.io/f/moqraave" method="POST">
+            <ContactFormWrapper className="inputMail">
+              <Input
+                type="text"
+                name="email"
+                inputType="email"
+                label="Veuillez saisir votre adresse email"
+                iconPosition="right"
+                isMaterial={true}
+                className="email_input"
+              />
+              <Button className="buttonGroup" type="submit" title="Souscrire" />
+            </ContactFormWrapper>
+            </form>
           </Box>
         </Box>
       </Container>

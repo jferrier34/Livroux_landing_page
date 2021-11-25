@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import { variant, alignItems, boxShadow } from 'styled-system';
 import { themeGet } from '@styled-system/theme-get';
-import { buttonStyle, colorStyle, sizeStyle } from '../customVariant';
+import { buttonStyle, buttonStyle2, colorStyle, sizeStyle } from '../customVariant';
 import { base } from '../base';
 
 const ButtonStyle = styled.button`
@@ -71,6 +71,8 @@ ButtonStyle.propTypes = {
   ...variant.propTypes,
 };
 
+
 ButtonStyle.displayName = 'ButtonStyle';
+
 
 export default ButtonStyle;

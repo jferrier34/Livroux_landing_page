@@ -4,6 +4,10 @@ const buttonStyle = variant({
   key: 'buttonStyles',
 });
 
+const buttonStyle2 = variant({
+  key: 'buttonStyles2',
+});
+
 const colorStyle = variant({
   key: 'colorStyles',
   prop: 'colors',
@@ -16,4 +20,4 @@ const sizeStyle = variant({
 
 export const cards = variant({ key: 'cards' });
 
-export { buttonStyle, colorStyle, sizeStyle };
+export { buttonStyle, buttonStyle2, colorStyle, sizeStyle };
