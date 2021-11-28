@@ -13,7 +13,7 @@ import Container from 'common/components/UI/Container';
 import GatsbyImage from 'common/components/GatsbyImage';
 import Image from 'common/components/Image';
 import Particles from '../Particle';
-import Biker from 'common/assets/image/appModern/scoot.svg';
+import Biker from 'common/assets/image/appModern/final_rider.svg';
 import DashboardWrapper, { DashboardObject } from './dashboard.style';
 import NewsletterWrapper, { ContactFormWrapper } from '../Newsletter/newsletter.style.js';
 

@@ -425,34 +425,34 @@ export const testimonial = {
   reviews: [
     {
       id: 1,
-      title: 'Client Livroux depuis 6 mois',
+      title: 'Client Livroux depuis 1 mois',
       description:
-        "L'efficacité Livroux me permet d'ouvrir 1j de plus par semaine grâce à une clientèle qui augmente",
+        'Mon "jeu" mobile préféré!',
       avatar:
         'https://pbs.twimg.com/profile_images/974736784906248192/gPZwCbdS.jpg',
-      name: 'Yoann',
-      designation: 'Gérant Food Worker',
+      name: 'Ruben Lopez',
+      designation: 'Sur PlayStore',
       review: 4,
     },
     {
       id: 2,
-      title: 'Client Fleuriste chez Livroux depuis 3 mois',
+      title: 'Cliente Livroux depuis 6 mois',
       description:
-        "Les ventes florales n'ont jamais été aussi bonnes, je n'ai plus aucun problème logistique, Livroux s'occupe de tout!",
+        "Super Appli, livreur avec le sourire, ça fait plaisir ... Ça change la vie pour les personnes qui habitent à la campagne bravo à vous.",
       avatar: 'https://randomuser.me/api/portraits/women/44.jpg',
-      name: 'Daniel',
-      designation: 'Gérant Fleurs & Nuances.',
+      name: 'Laeticia Daubigney',
+      designation: 'Sur PlayStore',
       review: 5,
     },
     {
       id: 3,
-      title: 'Livreur Livroux depuis 4 mois',
+      title: 'Client Livroux depuis 4 mois',
       description:
-        "Excellent compromis et multiples bénéfices 'Livreur', super boite flexible et arrangeante au possible!",
+        "Service au Top, sans cesse dans l'amélioration. Je recommande votre service de livraison",
       avatar:
         'https://zupimages.net/viewer.php?id=21/47/36qo.png',
-      name: 'Louis',
-      designation: 'Étudiant en Médecine',
+      name: 'Cucca Nabab',
+      designation: 'Sur AppStore',
       review: 5,
     },
   ],

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import BannerBG from 'common/assets/image/appModern/bottom.png';
+import BannerBG from 'common/assets/image/appModern/subscribe_section.svg';
 
 const NewsletterWrapper = styled.div`
   position: relative;

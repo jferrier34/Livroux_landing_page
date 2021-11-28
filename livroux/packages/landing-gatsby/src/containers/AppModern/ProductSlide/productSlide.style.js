@@ -14,7 +14,7 @@ const grow = keyframes`
 
 const ProductSlideWrapper = styled.div`
   margin-bottom: 81px;
-  background-color: ${themeGet('colors.banner', 'rgb(29, 35, 54)')};
+  background-color: #1c1a1a;
   padding-top: 80px;
   overflow: hidden;
   @media only screen and (max-width: 1440px) {

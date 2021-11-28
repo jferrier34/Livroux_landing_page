@@ -9,7 +9,7 @@ import GatsbyImage from 'common/components/GatsbyImage';
 import SectionWrapper, { ContentWrapper } from './designedAndBuilt.style';
 import instagramButton from 'common/assets/image/appModern/instagram_button.svg';
 import playStore from 'common/assets/image/appModern/messenger_button.svg';
-import Network from 'common/assets/image/appModern/social_interaction.svg';
+import Network from 'common/assets/image/appModern/final_social_interaction.svg';
 
 import BannerWrapper, {
   VideoGroup,

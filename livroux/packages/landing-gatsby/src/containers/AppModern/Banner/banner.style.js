@@ -237,12 +237,12 @@ export const VideoGroup = styled.div`
 
   .montage_city {
     margin-right: 0px;
-    margin-left: -7%;
-    max-width: 300%;
+    margin-left: -20%;
+    max-width: 380%;
     object-fit: cover;
     cursor: pointer;
     height: 100%;
-    margin-top: -20%;
+    margin-top: -55%;
     @media only screen and (max-width: 600px) {
       margin-right: 0;
       margin-bottom: 15px;

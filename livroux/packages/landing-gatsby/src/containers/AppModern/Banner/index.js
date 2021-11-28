@@ -23,7 +23,7 @@ import BannerWrapper, {
   ImageWrapper,
 } from './banner.style';
 
-import city from 'common/assets/image/appModern/home_montage.svg'
+import city from 'common/assets/image/appModern/town_interaction.svg'
 import appStore from 'common/assets/image/appModern/app-store-badge.png';
 import playStore from 'common/assets/image/appModern/badge-play-store.svg';
 import circleBorder from 'common/assets/image/appModern/shape.svg';
